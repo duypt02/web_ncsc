@@ -2,9 +2,9 @@
 
 class Connect{
     private $hostname = "localhost";
-    private $username = "root";
-    private $password = "03102002";
-    private $db_name = "webproject";
+    private $username = "";
+    private $password = "";
+    private $db_name = "";
 
     private function cnt(){
         $connect = mysqli_connect($this->hostname, $this->username, $this->password, $this->db_name);
